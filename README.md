@@ -79,4 +79,11 @@ The following visualizations are directly linked to the analytical question rega
 We encountered several challenges while analyzing this dataset due to its characteristics and considerations as follows:
 
 1. Data Completeness and Accuracy: The dataset acknowledges that the data had not been entirely verified at the time of publication. This inaccuracy and incompleteness could lead to discrepancies and weaken the validity of the analysis.
-2. Timezone Alignment
+2. Timezone Alignment: To preserve perfect anonymity, the REPORT_DATE, REPORT_HOUR, OCC_DATE, and OCC_HOUR were recorded in UTC time zone. The analysis, however, is concentrated on Toronto and the Eastern Time Zone.
+3. Data Structure Complexity: Due to the offense and victim-level reporting, the dataset had many rows connected to a single occurrence number, which required advanced Tableau Prep techniques for cleaning.
+4. Data Context and Verification: Drawing data-driven solutions and significant conclusions required extra caution because the data was preliminary and not fully confirmed.
+
+## 3.0. Conclusion
+
+Analyzing the major crime indicator's dataset can help law enforcement revise tactics and optimize resource allocation. The symbol map charts indicate that assault is most commonly occurring in specific locations in Wychwood. It may be influenced by a spatial correlation between crimes and areas of occurrence, but it doesn't describe the mechanism underlying the correlation. In order to further understand the root cause and assess alternative tactics, it is necessary to cross-relate them with other aspects of crime such as economic and demographic features, for example, employment levels and education levels. To improve the impact of law enforcer tactics and minimize the further increase of major crimes and keep Toronto a safe city.
+
