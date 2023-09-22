@@ -1,4 +1,4 @@
-# GTA Crime Analysis Project README
+# Toronot Major Crimes Analysis Project README
 
 ## Table of Contents
 1. [Introduction](#10-introduction)
